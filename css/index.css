@@ -49,7 +49,7 @@ table {
 /* General CSS*/
 * {
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+  
 }
 
 html, body {
@@ -96,12 +96,12 @@ header nav a {
   justify-content: space-around;
 }
 
-/* The Banner */
+/* Banner */
 .top-banner{
     margin: 2% 0;
 }
 
-/* The Home Content */
+/* Home Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +116,7 @@ header nav a {
     padding-bottom: 20px;  
 }
 
-/* The Home Boxes */
+/* Home Boxes */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -136,7 +136,6 @@ header nav a {
 .middle-content .boxes div{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -175,7 +174,7 @@ header nav a {
     background-color:dodgerblue;
   }
 
-  /* The Bottom Text */
+  /* Home Bottom Text */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -204,9 +203,6 @@ header nav a {
 .about-content div{
     width: 45%;
     margin: 3% 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
     border-bottom: 1px dashed black;
 }
 .about-content img{
@@ -216,7 +212,7 @@ header nav a {
     padding: 3% 0;
 }
 .about-content h2{
-    padding: 2% 0;
+    padding: 2% 0 1% 0;
 }
 .about-content button{
     border-radius: 10%;
@@ -250,4 +246,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/* Footer Ends */
